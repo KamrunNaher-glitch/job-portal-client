@@ -3,12 +3,8 @@ import React, { useContext } from 'react';
 import loginLottieJson from '../../assets/lottie/login.json'
 import AuthContext from '../../context/AuthContext/AuthContext';
 
-
-
 const SignIn = () => {
     const {signInUser} = useContext(AuthContext);
-
-
 
     const handleSignIn = e => {
         e.preventDefault();
@@ -53,9 +49,7 @@ const SignIn = () => {
                         <div className="form-control mt-6">
                             <button className="btn btn-primary">Login</button>
                         </div>
-                    </form>
-                    
-                    
+                    </form>        
                 </div>
             </div>
         </div>

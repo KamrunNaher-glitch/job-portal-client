@@ -6,9 +6,6 @@ import AuthContext from '../../context/AuthContext/AuthContext';
 
 const Register = () => {
   const {createUser} = useContext(AuthContext);
-
-
-
     const handleRegister = e =>{
         e.preventDefault() ;
         const form = e.target;
