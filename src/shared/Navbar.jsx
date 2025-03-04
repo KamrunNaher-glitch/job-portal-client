@@ -21,8 +21,6 @@ const Navbar = () => {
            <li><NavLink to="/">Home</NavLink></li>
            <li><NavLink to="/">Home</NavLink></li>
     </>
-
-
     return (
         <div className="navbar bg-base-100">
         <div className="navbar-start">
